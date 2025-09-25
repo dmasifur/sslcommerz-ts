@@ -73,11 +73,6 @@ npm install -D typescript ts-node @types/express @types/node
 
 **3. Set up your env variables (`.env`):**
 
-```bash
-
-npm install dotenv --save   
-
-```
 
 ```bash
 // .env
@@ -367,6 +362,12 @@ app.listen(port, () => {
 
 ```
 
+**4. Run your server (`index.js`):**
+
+```bash
+  node index.js
+```
+
 
 ## API Reference
 
@@ -391,5 +392,6 @@ Initiates a refund for a completed transaction.
 Contributions are welcome! Please feel free to submit a pull request or open an issue.
 
 ## License
+
 
 This project is licensed under the MIT License.
