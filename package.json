@@ -1,6 +1,6 @@
 {
   "name": "@dmasifur/sslcommerz-ts",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A modern TypeScript wrapper for the SSLCommerz payment gateway.",
   "main": "dist/sslcommerz.js",
   "types": "dist/sslcommerz.d.ts",
