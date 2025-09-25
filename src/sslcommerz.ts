@@ -11,6 +11,19 @@ import type {
   RefundResponse
 } from './types';
 
+export type {
+  PaymentData,
+  ValidationResponse,
+  RefundInitiateData,
+  RefundQueryData,
+  TransactionQueryBySessionIdData,
+  TransactionQueryByTransactionIdData,
+  InitResponse,
+  RefundResponse,
+  TransactionDetails,
+  TransactionQueryResponse
+} from './types';
+
 export class SslCommerzPayment {
   private readonly baseURL: string;
   private readonly store_id: string;
