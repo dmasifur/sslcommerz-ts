@@ -1,9 +1,17 @@
 {
   "name": "@dmasifur/sslcommerz-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A modern TypeScript wrapper for the SSLCommerz payment gateway.",
   "main": "dist/sslcommerz.js",
   "types": "dist/sslcommerz.d.ts",
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmasifur/sslcommerz-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dmasifur/sslcommerz-ts/issues"
+  },
+   "homepage": "https://github.com/dmasifur/sslcommerz-ts#readme",
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
