@@ -1,14 +1,14 @@
 {
   "name": "@dmasifur/sslcommerz-ts",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A modern TypeScript wrapper for the SSLCommerz payment gateway.",
   "main": "dist/sslcommerz.js",
   "types": "dist/sslcommerz.d.ts",
-  "exports":{
-    ".":{
-      "import":"./dist/sslcommerz.js",
-      "require": "./dist/sslcommerz.js", 
-      "types": "./dist/sslcommerz.d.ts"  
+  "exports": {
+    ".": {
+      "import": "./dist/sslcommerz.js",
+      "require": "./dist/sslcommerz.js",
+      "types": "./dist/sslcommerz.d.ts"
     }
   },
   "repository": {
